@@ -1,0 +1,31 @@
+class Student
+{
+	
+	int eno;
+	String name;
+	String gender;
+	
+	void getter(int e,String n,String g)
+	{
+		eno=e;
+		name=n;
+		gender=g;
+	}
+	void setter()
+	{
+		
+        System.out.println("Enrollment is:"+eno);
+		 System.out.println("Name is:"+name);
+		 System.out.println("Gender is:"+gender);
+		
+	}
+}
+class prac12
+{
+	public static void main(String args[])
+	{
+		Student a = new Student();
+		a.getter(20,"Ram","Male");
+		a.setter();
+	}
+}
